@@ -46,3 +46,6 @@ improving reliability,
 quantifying uncertainty properly,
 
 and ensuring that inferred demographic histories are data-supported rather than algorithmic artifacts.
+
+# Authors' Tutorial
+https://revbayes.github.io/tutorials/stairwayplot/
