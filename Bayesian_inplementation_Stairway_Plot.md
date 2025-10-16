@@ -8,10 +8,11 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.14087
 
 
 The Stairway Plot framework (v1 & v2) estimates population size changes through time using the site frequency spectrum (SFS). \
-The original method was frequentist, because it uses maximum likelihood estimation and bootstrap (resampling SNPs) to measure uncertainty.
+The original method was frequentist, because it uses maximum likelihood estimation and bootstrap (resampling SNPs) to measure uncertainty.\
+It tries demographic models with different numbers of change points (stairs), then picks the one minimizing a penalized likelihood (e.g., AIC-like criterion).
 
 _Its CI shows where 95% of those fits fall._ \
-_It cannot say “there’s a 95% chance Ne is between these values”; it only says “if I repeated sampling._\
+_It cannot say “there’s a 95% chance Ne is between these values”, but it only says "if I repeated sampling"._\
 _It cannot incorporate prior information about demographic smoothness or expected changes._
 
 # Why test Bayesian models?
@@ -19,15 +20,15 @@ Bayesian inference (likelihood + prior) lets you treat unknowns (e.g. historical
 so we can regularize, compare models, and quantify uncertainty properly.
 
 **Testing different Bayesian models allows us to ask:**\
-_“What kind of prior belief about demographic change best explains the SFS, without overfitting or losing resolution?”_
-
+_What kind of prior belief about demographic change best explains the SFS, without overfitting or losing resolution?_
+_How much prior biological knowledge (e.g., smoothness, bottleneck rarity) should influence the model?_
+_Which demographic trajectory is most probable given the data and prior beliefs?_
 
 **Model regularization and flexibility**\
 Compare prior models for the population-size trajectory Ne(t): e.g.,\
 _1). i.i.d. prior: population sizes vary freely (too flexible, risk of overfitting)_\
-_2). Gaussian Markov random field (GMRF): enforces smoothness across time_\
+_2). Gaussian Markov random field (GMRF): enforces smoothness across time (constant or gradual change)_\
 _3). Horseshoe (HSMRF) prior: allows most changes to be smooth but a few sharp (abrupt bottlenecks)_
-
 
 **Testing these tells you which regularization yields biologically realistic, data-supported histories.** \
 The Bayesian Credible intervals shows where 95% of posterior probability lies. \
