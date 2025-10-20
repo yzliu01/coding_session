@@ -53,7 +53,7 @@ Download RevBayes from our github repository. Clone the repository with ```-bran
 
 ```git clone --branch development https://github.com/revbayes/revbayes.git revbayes```
 
-**Use below with ```-branch dev_stairwayplot2``` instead for running ```?dnStairwayPlot```**
+**Use below with ```-branch dev_stairwayplot2``` advised by the developer, which is essential for running ```?dnStairwayPlot``` later**
 ```
 git clone --branch dev_stairwayplot2 https://github.com/revbayes/revbayes.git revbayes
 ```
