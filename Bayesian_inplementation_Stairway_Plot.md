@@ -49,7 +49,7 @@ https://revbayes.github.io/compile-linux
 
 Download RevBayes from our github repository. Clone the repository with ```-branch dev_stairwayplot2``` using git by running the following command in the terminal:
 
-**Do not use this appeared in the Tutorial (side branch is not merged by default ```dnStairwayPlot```)**
+**Do not use this appeared in above authors' Tutorial (side branch is not merged by default ```dnStairwayPlot```)**
 
 ```git clone --branch development https://github.com/revbayes/revbayes.git revbayes```
 
