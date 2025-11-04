@@ -27,8 +27,8 @@ _Which demographic trajectory is most probable given the data and prior beliefs?
 **Model regularization and flexibility**\
 Compare prior models for the population-size trajectory Ne(t): e.g.,\
 _1). i.i.d. prior: population sizes vary freely (too flexible, risk of overfitting)_\
-_2). Gaussian Markov random field (GMRF): enforces smoothness across time (constant or gradual change)_\
-_3). Horseshoe (HSMRF) prior: allows most changes to be smooth but a few sharp (abrupt bottlenecks)_
+_2). Gaussian Markov random field (GMRF): enforces smoothness across time (constant or gradual change - empirical data)_\
+_3). Horseshoe (HSMRF) prior: allows most changes to be smooth but a few sharp (abrupt bottlenecks - simulations)_
 
 **Testing these tells you which regularization yields biologically realistic, data-supported histories.** \
 The Bayesian Credible intervals shows where 95% of posterior probability lies. \
