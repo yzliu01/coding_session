@@ -3,7 +3,7 @@ A recent improvement of Stairway Plot 2 for demographic inference, using posteri
 https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.14087
 
 > ![Demographic histories estimated using our Bayesian StairwayPlot approach with different prior models for the big European firefly.](https://github.com/user-attachments/assets/f13bb6d7-6511-47a7-b141-c4c8776d983a)
-> _**Demographic histories estimated using our Bayesian StairwayPlot approach with different prior models for the big European firefly**_
+> _**Demographic histories estimated using the Bayesian StairwayPlot approach with different prior models for the big European firefly**_
 
 
 
