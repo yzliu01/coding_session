@@ -8,7 +8,7 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.14087
 
 
 The Stairway Plot framework (v1 & v2) estimates population size changes through time using the site frequency spectrum (SFS). \
-The original method was frequentist, because it uses maximum likelihood estimation and bootstrap (resampling SNPs) to measure uncertainty.\
+The original method is frequentist, because it uses maximum likelihood estimation and bootstrap (resampling SNPs) to measure uncertainty.\
 It tries demographic models with different numbers of change points (stairs), then picks the one minimizing a penalized likelihood (e.g., AIC-like criterion).
 
 _Its CI shows where 95% of those fits fall._ \
